@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-06-25 13:03:49.615438",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "point",
+  "checked",
+  "remarks",
+  "attach_mymi"
+ ],
+ "fields": [
+  {
+   "fieldname": "point",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Point",
+   "options": "File Maintain?\nBuilding Maintain?\nOffice Maintain?\nWater Facility?",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "checked",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Checked?"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "attach_mymi",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attach Proof"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-06-25 16:05:25.880961",
+ "modified_by": "Administrator",
+ "module": "Reporting App",
+ "name": "Visit Checklist",
+ "owner": "accit.assist@gmail.com",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
