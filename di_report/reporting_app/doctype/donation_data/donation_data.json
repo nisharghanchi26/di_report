@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2025-07-20 18:35:14.411161",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "location",
+  "deposit_status",
+  "date",
+  "user",
+  "user_mobile",
+  "mode",
+  "main_type",
+  "column_break_rhhq",
+  "sub_type",
+  "purpose",
+  "department",
+  "area_district",
+  "branch_c4",
+  "amount",
+  "user_gender"
+ ],
+ "fields": [
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Location"
+  },
+  {
+   "fieldname": "deposit_status",
+   "fieldtype": "Select",
+   "label": "Deposit Status",
+   "options": "Deposited\nUnDeposit"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Data",
+   "label": "User"
+  },
+  {
+   "fieldname": "user_mobile",
+   "fieldtype": "Data",
+   "label": "User Mobile"
+  },
+  {
+   "fieldname": "mode",
+   "fieldtype": "Data",
+   "label": "Mode"
+  },
+  {
+   "fieldname": "main_type",
+   "fieldtype": "Data",
+   "label": "Main Type"
+  },
+  {
+   "fieldname": "column_break_rhhq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sub_type",
+   "fieldtype": "Data",
+   "label": "Sub Type"
+  },
+  {
+   "fieldname": "purpose",
+   "fieldtype": "Data",
+   "label": "Purpose"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fieldname": "area_district",
+   "fieldtype": "Data",
+   "label": "Area (District)"
+  },
+  {
+   "fieldname": "branch_c4",
+   "fieldtype": "Data",
+   "label": "Branch (C4)"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "user_gender",
+   "fieldtype": "Select",
+   "label": "User Gender",
+   "options": "Male\nFemale"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-20 18:52:36.588494",
+ "modified_by": "Administrator",
+ "module": "Reporting App",
+ "name": "Donation Data",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

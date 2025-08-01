@@ -1,0 +1,74 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2025-07-20 19:00:16.243560",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "mandatory": 0,
+   "options": "Location",
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "deposit_status",
+   "fieldtype": "Select",
+   "label": "Deposit Status",
+   "mandatory": 0,
+   "options": "",
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "group_by",
+   "fieldtype": "Select",
+   "label": "Group By",
+   "mandatory": 0,
+   "options": "\nRegion\nState\nDivision\nUser",
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "mode",
+   "fieldtype": "Select",
+   "label": "Mode",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  }
+ ],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2025-07-20 22:43:18.070481",
+ "modified_by": "Administrator",
+ "module": "Reporting App",
+ "name": "Daily Donation Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Donation Data",
+ "report_name": "Daily Donation Report",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "timeout": 0
+}

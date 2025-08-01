@@ -250,3 +250,6 @@ fixtures = [
         ]
     }
 ]
+doctype_list_js = {
+    "Donation Data": "public/js/donation_data_list.js"
+}
