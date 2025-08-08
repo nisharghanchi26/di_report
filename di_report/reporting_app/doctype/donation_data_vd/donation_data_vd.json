@@ -1,24 +1,24 @@
 {
  "actions": [],
- "allow_import": 1,
  "allow_rename": 1,
- "creation": "2025-07-20 18:35:14.411161",
+ "creation": "2025-08-06 14:37:51.542279",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "location",
+  "type",
   "deposit_status",
   "date",
   "user",
   "user_mobile",
   "mode",
   "main_type",
-  "column_break_rhhq",
+  "column_break_jphz",
   "sub_type",
   "purpose",
   "department",
-  "area_district",
-  "branch_c4",
+  "area",
+  "branch",
   "amount",
   "user_gender"
  ],
@@ -30,10 +30,15 @@
    "options": "Location"
   },
   {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "ERaseed\nDM"
+  },
+  {
    "fieldname": "deposit_status",
    "fieldtype": "Select",
-   "label": "Deposit Status",
-   "options": "Deposited\nUnDeposit"
+   "label": "Deposit Status"
   },
   {
    "fieldname": "date",
@@ -61,7 +66,7 @@
    "label": "Main Type"
   },
   {
-   "fieldname": "column_break_rhhq",
+   "fieldname": "column_break_jphz",
    "fieldtype": "Column Break"
   },
   {
@@ -80,14 +85,14 @@
    "label": "Department"
   },
   {
-   "fieldname": "area_district",
+   "fieldname": "area",
    "fieldtype": "Data",
-   "label": "Area (District)"
+   "label": "Area"
   },
   {
-   "fieldname": "branch_c4",
+   "fieldname": "branch",
    "fieldtype": "Data",
-   "label": "Branch (C4)"
+   "label": "Branch"
   },
   {
    "fieldname": "amount",
@@ -103,11 +108,12 @@
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
+ "is_virtual": 1,
  "links": [],
- "modified": "2025-07-20 18:52:36.588494",
+ "modified": "2025-08-06 17:04:50.408190",
  "modified_by": "Administrator",
  "module": "Reporting App",
- "name": "Donation Data",
+ "name": "Donation Data VD",
  "owner": "Administrator",
  "permissions": [
   {
@@ -115,13 +121,21 @@
    "delete": 1,
    "email": 1,
    "export": 1,
-   "import": 1,
    "print": 1,
    "read": 1,
    "report": 1,
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accountant",
+   "share": 1
   }
  ],
  "row_format": "Dynamic",
